@@ -1,0 +1,10 @@
+# IntelliJ
+.idea
+
+# npm
+node_modules
+npm-debug.log
+
+# yarn
+yarn.lock
+yarn-error.log

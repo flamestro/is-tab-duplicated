@@ -1,0 +1,27 @@
+{
+  "name": "is-tab-duplicated",
+  "description": "Returns true if tab is duplicated",
+  "version": "1.0.0",
+  "homepage": "https://github.com/flamestro/is-tab-duplicated",
+  "author": "Ahmet Kilic (https://github.com/flamestro)",
+  "repository": "flamestro/is-tab-duplicated",
+  "bugs": {
+    "url": "https://github.com/flamestro/is-tab-duplicated/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "duplicated",
+    "tab",
+    "browser",
+    "session",
+    "duplicate",
+    "is"
+  ]
+}
