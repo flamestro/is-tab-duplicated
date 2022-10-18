@@ -43,7 +43,7 @@ const putTabHistory = (tabHistoryEntry: ITabHistoryEntry) => {
     }
 };
 
-export class TabId {
+class TabId {
     private static instance: ITabId | undefined;
 
     private constructor() {}
@@ -133,3 +133,5 @@ export class TabId {
         return tabHistory.length > 1;
     }
 }
+
+export default TabId;
