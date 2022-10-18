@@ -16,16 +16,25 @@ It also depends on the following events being fired:
 
 Every tab that runs your application will get a unique uuid. This will be stored in an instance. It is exposed via an api.
 In addition to that a history of tabId's will be stored in the session storage. This history is not exposed via an api.
+
+# Install
+
+`npm install --save is-tab-duplicated`
+
+or
+
+`yarn add is-tab-duplicated`
+
 # Usage
 
 There are three relevant methods in this library.
-1. initInstance
-2. isTabDuplicated
-3. getInstance
+1. initInstance()
+2. isTabDuplicated()
+3. getInstance().id
 
-You need to call TabId.initInstance() once per page load. It should not be called more than once. 
+You need to call `TabId.initInstance()` once per page load. It should not be called more than once. 
 
-Afterwards you can call TabId.isTabDuplicated() to see if the page is duplicated or TabId.getInstance().id to get the tabId
+Afterwards you can call `TabId.isTabDuplicated()` to see if the page is duplicated or `TabId.getInstance().id` to get the tabId
 
 ```typescript
 import TabId from "is-tab-duplicated";
