@@ -1,7 +1,7 @@
 {
   "name": "is-tab-duplicated",
   "description": "Determines if a tab is duplicated or not by using a intersection of browser standard definitions.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/flamestro/is-tab-duplicated",
   "author": "Ahmet Kilic (https://github.com/flamestro)",
   "repository": {
