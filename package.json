@@ -1,18 +1,19 @@
 {
   "name": "is-tab-duplicated",
-  "description": "Returns true if tab is duplicated",
-  "version": "1.0.0",
+  "description": "Determines if a tab is duplicated or not by using a intersection of browser standard definitions.",
+  "version": "1.1.12",
   "homepage": "https://github.com/flamestro/is-tab-duplicated",
   "author": "Ahmet Kilic (https://github.com/flamestro)",
-  "repository": "flamestro/is-tab-duplicated",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamestro/is-tab-duplicated.git"
+  },
   "bugs": {
     "url": "https://github.com/flamestro/is-tab-duplicated/issues"
   },
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -23,5 +24,16 @@
     "session",
     "duplicate",
     "is"
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
